@@ -68,5 +68,6 @@ password_entry.grid(row=2, column=2, padx=5, pady=5, sticky="w")
 login_button.grid(row=3, column=1, columnspan=2, pady=10)
 togglepass_button.grid(row=2, column=3, sticky="w")
 
+root.bind("<Return>", on_enter)
 
 root.mainloop()
